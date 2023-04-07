@@ -1,0 +1,28 @@
+Lanjutkan API mengenai peminjaman buku yang sudah dibuat
+
+Implementasikan JWT untuk endpoint:
+1. menambahkan buku (user_id diperoleh lewat JWT)
+done
+2. mengubah informasi buku (user_id diperoleh lewat JWT)
+pakai jwt
+done
+3. update profil (user_id diperoleh lewat JWT)
+done
+Tambahkan end point khusus untuk melihat buku yang dimiliki oleh user yang sedang login dan end point khusus untuk melihat semua buku.
+Implementasikan unit testing hingga > 80% pada SCOPE USER SAJA! (login,register,update profil)
+Deadline : rabu 5-04-2023
+Nama repo : API 3
+
+
+Lanjutkan Tugas terakhir yang kalian kerjakan.
+
+Implementasikan CI/CD (otomasi deploy) pada repository teman"
+
+Kirimkan bukti SS sebagai berikut:
+1. SS pada saat awal ketika berhasil login melalui ssh
+2. SS pada saat container sudah berjalan pada docker (hasil docker ps -a)
+3. SS akses salah satu endpoint pada postman (wajib menggunakan IP eksternal dari server)
+
+
+Kumpulkan pada repo: deployAPI (hanya berisi SS saja, untuk coding workflow bisa dilakukan pada repo tugas sebelumnya)
+Deadline : Senin 10 April 23.59

@@ -1,0 +1,18 @@
+mode: set
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:15.42,19.2 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:21.75,23.16 2 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:34.2,34.20 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:23.16,25.55 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:31.3,31.70 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:25.55,27.4 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:27.9,27.52 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:27.52,29.4 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:37.68,39.16 2 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:43.2,43.20 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:39.16,41.3 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:46.56,48.16 2 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:54.2,54.12 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:48.16,52.3 2 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:57.76,59.16 2 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:64.2,64.12 1 1
+github.com/kristain09/API4/app/feature/user/usecase/logic.go:59.16,62.3 2 1
