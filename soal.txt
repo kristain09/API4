@@ -26,3 +26,5 @@ Kirimkan bukti SS sebagai berikut:
 
 Kumpulkan pada repo: deployAPI (hanya berisi SS saja, untuk coding workflow bisa dilakukan pada repo tugas sebelumnya)
 Deadline : Senin 10 April 23.59
+
+coba push1
