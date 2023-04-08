@@ -31,7 +31,7 @@ func readconfig() *AppConfig {
 	// }
 
 	result.DBUSERNAME = os.Getenv("DBUSERNAME")
-	result.DBPASSWORD = os.Getenv("dbPASSWORD")
+	result.DBPASSWORD = os.Getenv("DBPASSWORD")
 	result.DBHOST = os.Getenv("DBHOST")
 	result.DBPORT = os.Getenv("DBPORT")
 	result.DBNAME = os.Getenv("DBNAME")
