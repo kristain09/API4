@@ -41,4 +41,4 @@ jobs:
             docker stop ${{ secrets.CNAME }}
             docker rm ${{ secrets.CNAME }}
             docker rmi api4:alpine
-            docker run --name ${{ secrets.CNAME }} -d -p 8000:8000 --link mysql -e DBUSERNAME=${{ secrets.DBUSERNAME }} -e DBPASSWORD=${{ secrets.DBPASSWORD }} -e DBHOST=${{ secrets.DBHOST }} -e DBPORT=${{ secrets.DBPORT }} -e DBNAME=${{ secrets.DBNAME }} -e SECRET=${{ secrets.JWT }} ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+            docker run --name ${{ secrets.CNAME }} -d -p 8000:8000 --link api4 -e DBUSERNAME=${{ secrets.DBUSERNAME }} -e DBPASSWORD=${{ secrets.DBPASSWORD }} -e DBHOST=${{ secrets.DBHOST }} -e DBPORT=${{ secrets.DBPORT }} -e DBNAME=${{ secrets.DBNAME }} -e SECRET=${{ secrets.JWT }} ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
