@@ -1,11 +1,6 @@
 package config
 
-import (
-	"log"
-	"os"
-
-	"github.com/joho/godotenv"
-)
+import "os"
 
 type AppConfig struct {
 	DBUSERNAME string
@@ -29,10 +24,11 @@ func IniConfig() *AppConfig {
 
 func readconfig() *AppConfig {
 	var result = new(AppConfig)
-	err := godotenv.Load(".env")
-	if err != nil {
-		log.Fatalln("cannot load env file for database")
-	}
+
+	// err := godotenv.Load(".env")
+	// if err != nil {
+	// 	log.Fatalln("cannot load env file for database")
+	// }
 
 	result.DBUSERNAME = os.Getenv("DBUSERNAME")
 	result.DBPASSWORD = os.Getenv("dbPASSWORD")

@@ -9,7 +9,6 @@ require (
 
 require (
 	github.com/google/uuid v1.3.0
-	github.com/joho/godotenv v1.5.1
 	github.com/labstack/echo/v4 v4.10.2
 	github.com/labstack/gommon v0.4.0
 	golang.org/x/crypto v0.6.0
